@@ -16,16 +16,11 @@ int main()
 {
  	std::vector<int> values = { 1,5,4,2,3,8};
 
-    auto lambda2 = [](int value) {return value > 3;
-	auto it = std::find_if(values.begin(), values.end(), [](int value) {return value > 3; });
-    std::cout << *it << std::endl;
-
-
 	int a = 5;
 
     auto lambda = [=](int value)  { std::cout << "Value: " << value << std::endl; };
 
-    ForEach(values, lambda2);
+    ForEach(values, lambda);
     std::cin.get();
 }
 
