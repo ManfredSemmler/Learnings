@@ -1,5 +1,11 @@
 // ConsoleApplication_lambda.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+// see also https://learn.microsoft.com/de-de/cpp/cpp/lambda-expressions-in-cpp?view=msvc-170#%C3%9Cbersicht
+// and https://learn.microsoft.com/de-de/cpp/cpp/examples-of-lambda-expressions?view=msvc-170
+
+
+
+
 
 #include <iostream>
 #include <vector>
